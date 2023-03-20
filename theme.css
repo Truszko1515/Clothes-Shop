@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins:wght@300;500&display=swap");
+
+.navbar a {
+  margin: 0 5px 0 0;
+  padding: 0 8px 0 8px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 100px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.navbar a:hover {
+  border-color: black;
+}
+
+.navbar a.active {
+  border-color: grey;
+}
+
+.contentdiv {
+  padding: 38px;
+  text-align: center;
+  font-size: larger;
+  font-style: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer {
+  padding: 38px;
+  margin-top: 150px;
+  text-align: right;
+  color: grey;
+}
+
+/*  własne  */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  margin-block-start: 0;
+  text-indent: 1rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  width: 40px;
+  margin: 1.5rem 0 1rem 0;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+#main-page {
+  flex-grow: 1;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  border-right: 1px solid lightgray;
+}
+
+.sidebar > a {
+  margin: 0.5rem 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 1rem;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-card {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+
+  text-decoration: none;
+  color: unset;
+}
+
+.socials-card:hover {
+  background-color: lightgray;
+}
+
+.socials-card > i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+/*  dropdown list  */
+
+.main {
+  height: 400px;
+  padding: 10px;
+}
+
+.dropdown_button {
+  background-color: #0979ad;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  font-family: montserrat;
+  border: 1px solid #ffffff;
+}
+
+.courses {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.courses li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  list-style: none;
+  background-color: rgb(47, 47, 47);
+  font-family: montserrat;
+  border: 1px solid white;
+}
+
+.courses li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+.courses li:hover {
+  background-color: #0979ad;
+  color: white;
+}
+
